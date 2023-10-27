@@ -1,21 +1,25 @@
 import React from 'react';
-import './Navbar.css';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div>
-            <nav>
-                <ul>
-                    <li> <Link className='link-item' to='/'>Home</Link> </li>
-                    <li> <Link className='link-item' to='/blogs'>Blogs</Link> </li>
-                    <li> <Link className='link-item' to='/about'>About</Link> </li>
-                    {/* <li> <Link className='link-item' to='#contact'>Contact</Link> </li> */}
-                </ul>
-            </nav>
-            <div className='social-icon'>
-
+        <div className='flex justify-between items-center px-[10%] py-3 bg-black'>
+            <div>
+                <h3 className=' font-bold text-white text-2xl'>Arman kabir Portfolio</h3>
             </div>
+
+            <div className='space-x-5 text-white flex items-center'>
+                <span className='hover:font-bold text-xl hover:text-red-300'><Link className='' to='/'>Home</Link></span>
+                <span className='hover:font-bold text-xl hover:text-red-300'><Link className='' to='/blogs'>Blogs</Link></span>
+                <span className='hover:font-bold text-xl hover:text-red-300'><Link className='' to='/about'>About</Link></span>
+
+                <div className='space-x-1'>
+                    <span>git</span>
+                    <span>link</span>
+                    <span>gmail</span>
+                </div>
+            </div>
+
         </div>
     );
 };
