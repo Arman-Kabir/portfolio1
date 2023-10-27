@@ -1,0 +1,31 @@
+.project-container{
+    border: 1px solid blue;
+    padding: 20px;
+}
+.project-container p{
+    font-size: 16px;
+}
+.thumbnail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thumbnail img{
+    padding: 20px 0;
+    width: 250px;
+    height: 250px;
+}
+.project-title-center{
+    text-align: center;
+}
+
+.project-container button{
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+.project-container button:hover{
+    background-color: yellow;
+    color: black;
+}

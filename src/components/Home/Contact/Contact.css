@@ -1,0 +1,18 @@
+.contact-container{
+    /* width: 200px; */
+    padding: 50px 20px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: cornsilk;
+}
+.form-container{
+    width: 200px;
+}
+
+.form-container input,button,textarea{
+    padding: 10px ;
+    width: 100%;
+}
