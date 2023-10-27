@@ -1,57 +1,27 @@
 .hero-section{
-    background-color: #008E9B;
+    background-color: #00263C;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20rem;
+    padding: 5% 10%;
+
+}
+
+img{
+    width: 200px;
+    border-radius: 50%;
 }
 
 .title-center{
     width: 100%;
-    height: 300px;
-    border: 1px dashed red;
+    /* height: 300px; */
     display: grid;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     font-size: 2rem;
     color: #fff;
 }
 
-.hero-wrapper{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 30rem;
-}
-
-.left-column{
-    border: 1px solid blue;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
-.left-column img{
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-}
-.right-column{
-    border: 1px solid blue;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-}
-
-.my-intro{
-    /* padding: ; */
-    text-align: center;
-    width: 400px;
-    height: 300px;
-    font-size: 2em;
-    /* background-color: rgb(15, 12, 63); */
-    /* border: 5px solid rgb(1, 30, 85);   */
-}
-
-.resume{
-    display: grid;
-    justify-content: center;
-}
 .resume a{
     padding: 10px;
     border: 1px solid yellow;
@@ -60,7 +30,7 @@
     color: White;
 }
 .resume a:hover{
-    /* padding: 5px; */
+    padding: 5px;
     border: 1px solid yellow;
     border-radius: 10px;
     text-decoration: none;
@@ -69,8 +39,7 @@
 }
 
 @media screen and (max-width:820px) {
-    .hero-wrapper{
-        
+    .hero-section{   
         grid-template-columns: 1fr;
         
     }
