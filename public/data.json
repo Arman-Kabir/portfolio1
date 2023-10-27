@@ -1,6 +1,21 @@
 [
     {
-      "id": "1",
+      "id": "6",
+      "name": "IT-House",
+      "image": "https://i.ibb.co/R3C8zTN/it-house1.png",
+      "image1": "https://i.ibb.co/R3C8zTN/it-house1.png",
+      "image2": "https://i.ibb.co/R3C8zTN/it-house1.png",
+      "image3": "https://i.ibb.co/R3C8zTN/it-house1.png",
+      "serverCode": "https://github.com/Arman-Kabir/it-service-backend",
+      "description": "Service based Company Website where different types of IT services are displayed. Users can view all services, select an IT service, choose a date and time slot, and book the service. They can also view their bookings, manage their profile, and add reviews from the dashboard. Admins have the ability to view their profiles, delete users, manage bookings (including deleting any unpaid services), and manage services (adding, removing, or modifying services) from the dashboard. Super Admins have the authority to create and delete admins.",
+
+      "live": "https://ithouse-wine.vercel.app/",
+      "code": "https://github.com/Arman-Kabir/it-service-frontend",
+      
+      "technology": "Nextjs, Redux, Ant Design Express,Mongoose ,JWT, Yup-Zod, React Hook Form Modular pattern RTK Query Axios"
+    },
+    {
+      "id": "5",
       "name": "Lambo-parts",
       "image": "https://i.ibb.co/NmYVtq2/lambo.png",
       "image1": "https://i.ibb.co/bP8H62N/lambo1.png",
@@ -14,7 +29,7 @@
       "technology": "Tailwind CSS, Daisy UI, React, React Router, React Query, Axios, NodeJs, ExpressJs, MongoDB, Securing Database using JWT, Firebase authentication,firebase hosting, Server hosting in Heroku.\r\n"
     },
     {
-      "id": "2",
+      "id": "4",
       "name": "Royal-bikes",
       "image": "https://i.ibb.co/yXQ1Hqb/royal.png",
       "image1": "https://i.ibb.co/wySTxsz/royal1.png",
@@ -40,7 +55,7 @@
       "technology": " Bootstrap. React, React Router, Firebase authentication.\r\n"
     },
     {
-      "id": "4",
+      "id": "2",
       "name": "Personal Finance",
       "image": "https://i.ibb.co/WtcKR6J/finance.png",
       "image1": "https://i.ibb.co/CsNPZcC/finance1.png",
@@ -53,7 +68,7 @@
       "technology": " Raw JavaScript, DOM, Raw CSS\r\n"
     },
     {
-      "id": "5",
+      "id": "1",
       "name": "Influencer Products",
       "image": "https://i.ibb.co/bPcC3f0/influencer.png",
       "image1": "https://i.ibb.co/HD5T3z4/influencer1.png",

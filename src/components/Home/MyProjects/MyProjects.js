@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import useProjects from '../../useProjects/useProjects';
 import Project from '../Project/Project';
 import './MyProjects.css';
